@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_18" data-name="Group 18" transform="translate(-268 -67)">
+    <g id="Group_17" data-name="Group 17" transform="translate(274 75)">
+      <g id="noun_Arrow_1920908" transform="translate(5.448) rotate(90)">
+        <path id="Path_3" data-name="Path 3" d="M0,.959A.97.97,0,0,1,.275.287a.955.955,0,0,1,1.345,0L4.5,3.156,7.378.277A.951.951,0,0,1,8.723,1.622L5.171,5.174a.937.937,0,0,1-.672.275.978.978,0,0,1-.672-.275L.275,1.631A.987.987,0,0,1,0,.959Z"/>
+      </g>
+      <g id="noun_Arrow_1920908-2" data-name="noun_Arrow_1920908" transform="translate(12.448) rotate(90)">
+        <path id="Path_3-2" data-name="Path 3" d="M0,.959A.97.97,0,0,1,.275.287a.955.955,0,0,1,1.345,0L4.5,3.156,7.378.277A.951.951,0,0,1,8.723,1.622L5.171,5.174a.937.937,0,0,1-.672.275.978.978,0,0,1-.672-.275L.275,1.631A.987.987,0,0,1,0,.959Z"/>
+      </g>
+    </g>
+    <g id="Rectangle_38" data-name="Rectangle 38" class="cls-1" transform="translate(268 67)">
+      <rect class="cls-2" width="25" height="25" rx="4"/>
+      <rect class="cls-3" x="0.5" y="0.5" width="24" height="24" rx="3.5"/>
+    </g>
+  </g>
+</svg>

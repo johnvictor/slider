@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.slider-container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 100%;
+}
+
+.previousarrow {
+    transform: rotate(90deg);
+}
+
+.nextarrow {
+    transform: rotate(270deg);
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.menu-item {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    transition: left 500ms, right 500ms;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

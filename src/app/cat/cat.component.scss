@@ -1,0 +1,14 @@
+.main {
+    max-width: 662px;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    transform: translateX(25px);
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+}

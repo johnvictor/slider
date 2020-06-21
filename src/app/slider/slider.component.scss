@@ -1,0 +1,93 @@
+aside {
+    width: 30px;
+    background: red;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    margin: auto;
+}
+
+main {
+    background: lightblue;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chart-container {
+    margin: 0 0 0 25px;
+    flex:1;
+    background: #fff;
+    display: flex;
+}
+
+.items-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer {
+    margin: 0 0 0 25px;
+    height: 100px;
+    background: orange;
+}
+
+.charts {
+    position: absolute;
+    width: 80%;
+    box-shadow: 0px 2px 6px #0000000A;
+    border: 1px solid #DEDEDE;
+    img {
+        width: 100%;
+    }
+}
+
+.charts:nth-child(1) {
+    left: 10%;
+}
+
+.charts:nth-child(2) {
+    left: 90%;
+    filter: blur(1px);
+}
+
+.charts:nth-child(3) {
+    left: 170%;
+    filter: blur(1px);
+}
+
+@media only screen and (min-width: 1024px) {
+    .items-container {
+        position: relative;
+        display: flex;
+        height: 300px;
+    }
+    .charts {
+        position: relative;
+    }
+    .charts:nth-child(1) {
+        left: unset;
+    }
+    
+    .charts:nth-child(2) {
+        left: unset;
+    }
+    
+    .charts:nth-child(3) {
+        left: unset;
+    }
+    
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 601px) {
+    .charts {
+        img {
+            height: 300px;
+        }
+    }
+
+}

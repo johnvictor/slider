@@ -1,0 +1,14 @@
+<div class='mobile-container'>
+    <div class="menu-container">
+        <app-elite-slider [options]='charts'>
+            <ng-template let-car eTemplate="item" let-i="index">
+                <div class='menu'>
+                    <img [src]='car.src' />
+                    <div>
+                        this is a long sentence
+                    </div>
+                </div>
+            </ng-template>
+        </app-elite-slider>
+    </div>
+</div>

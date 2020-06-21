@@ -1,0 +1,17 @@
+<div class='container'>
+    <div class='previous' (click)='previous()'>
+        <img src='assets/imgs/noun_Arrow_-1.png'
+            [ngClass]="this.currentIndex === 1 ? 'disabled-img' : 'enabled-img'"/>
+    </div>
+    <div class='menu-container'>
+        <div class='menu-items' *ngFor='let option of options; let i = index;' [ngStyle]='option.style'>
+            <div class='custom-component'>
+                <ng-container *ngTemplateOutlet="itemTemplate; context: {$implicit: option.value, index: i}"></ng-container>
+            </div>
+        </div>
+    </div>
+    <div class='next' (click)='next()'>
+        <img src='assets/imgs/noun_Arrow_-1.png'
+            [ngClass]="this.currentIndex > this.options.length - 2 ? 'disabled-img' : 'enabled-img'"/>
+    </div>
+</div>

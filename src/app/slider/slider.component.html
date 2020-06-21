@@ -1,0 +1,21 @@
+<div class='container'>
+    <aside></aside>
+    <main>
+        <div class='chart-container'>
+            <div class='items-container'>
+                <div class='charts' [ngStyle]='item.style' *ngFor='let item of charts; index as i' (click)='animate(i)'>
+                    <select>
+                        <option>option1</option>
+                        <option>option2</option>
+                        <option>option3</option>
+                      </select>
+                    <img [src]='item.src' />
+                </div>
+            </div>
+        </div>
+            
+        <footer>
+            <app-slider-with-arrow></app-slider-with-arrow>
+        </footer>
+    </main>
+</div>

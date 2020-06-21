@@ -1,0 +1,16 @@
+<div class='container'>
+    <div class='slider-container'>
+        <img src='assets/imgs/noun_Arrow_-1.png' class='previousarrow' (click)='previous()'/>
+        <div class='image'>
+            <div class='menu-item' *ngFor='let menu of images' [ngStyle]='menu.style'>
+                <div class='menu-content'>
+                    <img [src]='menu.img' [title]='menu.index'/>
+                    <div>
+                        <label>label</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src='assets/imgs/noun_Arrow_-1.png' class='nextarrow' (click)='next()'/>
+    </div>
+</div>>
